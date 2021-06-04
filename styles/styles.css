@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 100px auto;
+}
+
+.card {
+    padding: 3rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.card-p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.card-h2 {
+    padding-top: 1.5rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#sedan>.btn {
+    color: hsl(31, 77%, 52%);
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suv>.btn {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#luxury>.btn {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .card-container {
+        line-height: 2rem;
+        font-size: 2rem;
+        background-color: grey;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .btn {
+        margin-top: 7rem;
+        font-size: 1rem;
+    }
+    #luxury {
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+    }
+    #sedan {
+        border-bottom-left-radius: 1em;
+        border-top-right-radius: 0em;
+    }
+    #luxury>.btn:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        cursor: pointer;
+    }
+    #suv>.btn:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        cursor: pointer;
+    }
+    #sedan>.btn:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        cursor: pointer;
+    }
+    .card-p {
+        padding-top: 2.5rem;
+    }
+    .card-h2 {
+        padding-top: 2.5rem;
+    }
+}

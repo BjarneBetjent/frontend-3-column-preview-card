@@ -7,8 +7,8 @@ My attempt to recreate the design, with responsive design
 ## Process
 
 - [x] Setup project structure
-- [ ] Write the HTML markup with proper sematics
-- [ ] Css for mobile device
+- [x] Write the HTML markup with proper sematics
+- [x] Css for mobile device
 - [ ] Css for desktop
 
 
