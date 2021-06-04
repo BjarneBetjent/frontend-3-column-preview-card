@@ -14,9 +14,15 @@ My attempt to recreate the design, with responsive design
 ## Screenshot
 ![](./screenshot1.png)
 
+![](./screenshot2.png)
+
+## Links
+
+- [Example hosted on netlify] (https://3-columns-preview-frontend.netlify.app/)
 
 
 ### Useful resources
 
 - [The challenge on frontendmontor.io](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+
 
