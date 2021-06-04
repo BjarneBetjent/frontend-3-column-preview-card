@@ -18,7 +18,7 @@ My attempt to recreate the design, with responsive design
 
 ## Links
 
-- [Example hosted on netlify] (https://3-columns-preview-frontend.netlify.app/)
+- [Example hosted on netlify](https://3-columns-preview-frontend.netlify.app/)
 
 
 ### Useful resources
