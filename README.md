@@ -11,6 +11,10 @@ My attempt to recreate the design, with responsive design
 - [x] Css for mobile device
 - [ ] Css for desktop
 
+## Screenshot
+![](./screenshot1.png)
+
+
 
 ### Useful resources
 
