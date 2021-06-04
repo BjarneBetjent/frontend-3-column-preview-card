@@ -41,8 +41,8 @@ html {
 
 #sedan {
     background-color: hsl(31, 77%, 52%);
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 #sedan>.btn {
@@ -72,9 +72,12 @@ html {
     .card-container {
         line-height: 2rem;
         font-size: 2rem;
-        background-color: grey;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .card {
+        width: 250px
     }
     .btn {
         margin-top: 7rem;
@@ -85,8 +88,8 @@ html {
         border-bottom-left-radius: 0rem;
     }
     #sedan {
-        border-bottom-left-radius: 1em;
-        border-top-right-radius: 0em;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0rem;
     }
     #luxury>.btn:hover {
         background-color: hsl(179, 100%, 13%);
